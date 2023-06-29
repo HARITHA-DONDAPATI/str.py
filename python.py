@@ -28,3 +28,15 @@ str= "coffee tastes so good"
 x=str.find("good")
 print (x)
 #17
+str="forgot to add sugar"
+x=str.isnumeric()
+print(x)
+#False
+str= "stir it well"
+x=str.capitalize()
+print(x)
+#Stir it well
+str= "making coffee is easy"
+x=str.isidentifier()
+print(x)
+#False
